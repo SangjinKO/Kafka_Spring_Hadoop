@@ -1,0 +1,11 @@
+metricbeat.modules:
+- module: system
+  metricsets:
+    - cpu
+    - memory
+  enabled: true
+  period: 10s
+
+output.kafka:
+  hosts: ["localhost:9092"]
+  topic: 'metric.all'
