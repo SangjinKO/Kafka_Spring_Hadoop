@@ -1,4 +1,4 @@
-# Kafka with Spring/Hadoop
+# Kafka with Spring / Hadoop Eco
 
 Date: 2021.1 - 2021.9
 Goal: Develope a message bus with Kafka, Spring(Java), Hadoop Eco (Elasticsearch, Kibana, HDFS, Metricbeat)
